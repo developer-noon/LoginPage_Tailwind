@@ -1,0 +1,11 @@
+June 2nd ----> revise basic HTML, CSS
+
+{---  ---}
+
+{--- Note: HTML Constraint validation doesn't remove the need for validation on the server side. Even though far fewer invalid form requests are to be expected, invalid ones can still be sent in many ways:
+
+By modifying HTML via the browser's developer tools.
+By hand-crafting an HTTP request without using the form.
+By programmatically writing content into the form (certain constraint validations are only run for user input, and not if you set the value of a form field using JavaScript).
+Therefore, you should always validate form data on the server side, consistent with what is done on the client side. ---}
+
